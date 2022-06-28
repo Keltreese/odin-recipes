@@ -1,0 +1,94 @@
+@charset "utf-8";
+body {
+    background-color:#cfe2f3;
+    font-family:Arial, Tahoma, sans-serif;
+    color: #000000;
+}
+h1 {
+    color: #ffffff;
+}
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+}
+
+#container {
+    width: 100%;
+}
+main{
+    width: 80%;
+    background-color: #cfe2f3;
+    font-family:Ariel, Tahoma,sans-serif;
+    float:left;
+    padding: 5px;
+    text-align:left;
+}
+ h2 { 
+	width: 100%;
+	background-color: #1e79b5;
+	color: #fff;
+	padding: 5px;
+}
+#container{
+    width: 100%;
+}
+/* Navigation */
+nav {
+    color: #000000;
+    padding:5px;
+    width: 80%;
+    margin-left:10%;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    padding: 10px;
+}
+nav ul link, nav ul li a:visited {
+    display: block;
+    width: 100%;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #ff8c00;
+    padding: 2px 4px 2px 4px;
+    background-color: #000000;
+    text-decoration:none;
+}
+nav ul li a:hover {
+    color: #000000;
+    background-color:  #ffffff;   
+    
+}
+
+/* Table */
+table, th, td {
+    border:thin solid;
+    width:50%;
+}
+table {  
+    width:80%;
+    background-color: #e0a878;
+}
+td{
+  height:50px;
+}
+
+footer {
+    clear: both;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 12pt;
+    width:90%;
+}
+
+input[type="number"] {
+	background-color: #ff8c00;
+}
